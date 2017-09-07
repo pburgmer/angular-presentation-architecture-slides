@@ -53,6 +53,14 @@
       'routing/angular-core-lazy-solution-2',
 
       'data-flow/title',
+      'data-flow/overview',
+      'data-flow/demo-problem',
+      'data-flow/mutability',
+      'data-flow/frp',
+      'data-flow/flux',
+      'data-flow/redux',
+      'data-flow/tydux',
+      'data-flow/demo-tydux',
 
       'testing/title',
       'testing/overview',
