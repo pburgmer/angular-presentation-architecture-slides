@@ -1,0 +1,33 @@
+<div w11k-slide-master="regular" class="">
+  <div w11k-slide-part-source="header">
+    NPM Packages
+  </div>
+
+  <div w11k-slide-part-source="content">
+
+    <ul class="simple">
+      <li>Wiederverwendbare / allgemeine Teile auslagern (Bibliothek)</li>
+      <li>Private Repos (Nexus / Artifactory / NPM INC)</li>
+      <li>Kombination aus allem
+        <ul>
+          <li>NPM Paket installieren</li>
+          <li>EcmaScript Module per absolutem import Statement</li>
+          <li>NgModule importieren und zu imports hinzufügen</li>
+        </ul>
+      </li>
+      <li>Problem 1: Build
+        <ul>
+          <li>CLI nur für Anwendungen, nicht für Bibliotheken</li>
+          <li>Schwierig und zeitaufwändig</li>
+        </ul>
+      </li>
+      <li>Problem 2: Lokale Entwicklung
+        <ul>
+          <li><code>npm link</code> funktioniert nicht wirklich gut</li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+
+</div>

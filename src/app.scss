@@ -90,3 +90,16 @@ $w11k-prettyPrint-line-color-highlight: $tcc-code-bg-3;
   }
 }
 
+.tcc-2016 {
+  .slides:not(.export) > .slide-container > div > .slide {
+    .img-responsive {
+      width: 70vw;
+      max-width: 150%;
+    }
+    .img-responsive.svg {
+      width: 90vw;
+      max-width: 90vw;
+      max-height:78vh;
+    }
+  }
+}
