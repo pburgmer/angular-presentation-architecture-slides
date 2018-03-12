@@ -60,10 +60,10 @@
     > div > .slide {
       width: 297mm;
       max-width: 297mm;
-      min-height: 210mm;
+      min-height: 167mm;
 
       &.master-title {
-        font-size: 18pt;
+        font-size: 16pt;
       }
 
       &.master-regular {
@@ -77,7 +77,7 @@
         }
 
         .content {
-          font-size: 16pt;
+          font-size: 14pt;
         }
 
         .footer {
