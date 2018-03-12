@@ -164,14 +164,11 @@
       .bottom {
         padding: 0 1.5em;
         text-align: center;
+        color: white;
 
         .content {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
           img {
-            margin: 0 1em;
+            width: auto;
           }
         }
       }
