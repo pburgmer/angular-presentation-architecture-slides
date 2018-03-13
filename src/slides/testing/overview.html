@@ -6,24 +6,18 @@
   <div w11k-slide-part-source="content">
 
     <ul class="simple">
-      <li>Unit-Tests wichtig für langfristige Wartbarkeit</li>
-      <li>Dependency Injection und Mock-Support</li>
-      <li><a href="https://angular.io/docs/ts/latest/guide/testing.html" target="_blank">Angular Testing Guide</a></li>
-      <li>Tests oft guter Indikator für saubere Architektur
-      <ul>
-          <li>Lesbarkeit & leichte Verständlichkeit der Tests</li>
+      <li>Unit-Tests wichtig für langfristige Wartbarkeit
+        <ul>
+          <li>Tests oft guter Indikator für saubere Architektur</li>
+          <li>Lesbarkeit & Verständlichkeit der Tests</li>
+          <li>Tests sind im Idealfall ausführbare Doku</li>
         </ul>
       </li>
       <li>Test-Driven-Development hilft beim Schneiden
-      <ul>
-          <li>Single-Responsibility</li>
-        </ul>
-      </li>
-      <li>Aber: Test-Code sehr aufgebläht
         <ul>
-          <li><code>it('desc', async(inject([Dependency, (dep) => {}])))</code></li>
-          <li>Viel Schachtelung, viele Klammern</li>
-          <li>Keine Verwendung der Typen bei <code>inject</code></li>
+          <li>Zusätzlicher Context</li>
+          <li>Single-Responsibility</li>
+          <li>Schlecht testbar? Indiz für <i>macht zuviel</i></li>
         </ul>
       </li>
     </ul>
