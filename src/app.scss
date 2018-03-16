@@ -89,4 +89,25 @@ $w11k-prettyPrint-line-color-highlight: $tcc-code-bg-3;
       max-height:78vh;
     }
   }
+
+  .slides.export > .slide-container > div > .slide {
+    .img-responsive {
+      width: auto;
+      height: 440px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .img-responsive.svg {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+    .img-responsive.svg.fullscreen {
+      width: auto;
+      height: 440px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
 }
